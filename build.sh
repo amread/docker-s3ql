@@ -8,7 +8,7 @@ s3ql_download_url=https://bitbucket.org/nikratio/s3ql/downloads/s3ql-2.26.tar.bz
 
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
-apt-get install --no-install-recommends -y software-properties-common ca-certificates nfs-kernel-server build-essential pkg-config libfuse-dev libattr1-dev libsqlite3-dev psmisc procps wget
+apt-get install --no-install-recommends -y software-properties-common ca-certificates nfs-kernel-server build-essential pkg-config libfuse-dev libattr1-dev libsqlite3-dev psmisc procps wget netbase
 apt-get upgrade --no-install-recommends -y
 apt-get clean
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
