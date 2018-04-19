@@ -2,7 +2,7 @@ FROM		phusion/baseimage
 MAINTAINER	Mikael Mellgren <mikael@murf.se>
 
 # Environment Configuration variables Needed to function properly.
-ENV  S3QL_TYPE=swift \
+ENV  S3QL_TYPE=s3 \
 	 S3QL_STORAGE=server:port \
 	 S3QL_STORAGE_CONTAINER=storage_container \
 	 S3QL_STORAGE_FS=Filesystem_Name \
